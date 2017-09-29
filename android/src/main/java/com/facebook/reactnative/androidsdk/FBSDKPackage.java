@@ -41,7 +41,6 @@ public class FBSDKPackage implements ReactPackage {
         mCallbackManager = callbackManager;
     }
 
-    @Override
     public List<NativeModule> createNativeModules(
             ReactApplicationContext reactContext) {
         InternalSettings.setCustomUserAgent(VERSION_TO_RELEASE);
